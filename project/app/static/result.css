@@ -1,0 +1,50 @@
+html {
+    font-size: 62.5%;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: rgb(24, 184, 224);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#box {
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.check {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 1rem;
+    width: 40%;
+    box-sizing: border-box;
+    padding: 2rem;
+    color: rgb(24, 184, 224);
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.result {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 1rem;
+    width: 40%;
+    box-sizing: border-box;
+    padding: 2rem;
+    border: 0.3rem white solid;
+}
